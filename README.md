@@ -128,6 +128,7 @@ Pre-trained Language Models like BERT or RoBERTa can be fine-tuned on the NER ta
 
 
 # Conclusion
-. CRF as the Baseline Model: The CRF model captures sequential dependencies but struggles with context and rare entity identification due to class imbalance.
-. LSTM and BiLSTM: LSTM and BiLSTM address these shortcomings by learning better contextual dependencies over sequences, improving the model's performance on rare entities and class imbalances.
-. Future Scope: Fine-tuning LSTM/BiLSTM architectures, using pre-trained embeddings, leveraging transfer learning, and implementing data augmentation can further improve the model's performance on complex NER tasks.
+
+CRF Model: Effective for sequential prediction but limited by class imbalance and lack of deep contextual understanding.
+LSTM/BiLSTM Models: Enhance the ability to capture long-term dependencies and improve recall for rare entities.
+Future Improvements: Fine-tuning models, using transfer learning, and leveraging pre-trained embeddings can significantly improve NER performance.
