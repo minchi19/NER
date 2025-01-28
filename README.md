@@ -129,8 +129,8 @@ Pre-trained Language Models like BERT or RoBERTa can be fine-tuned on the NER ta
 
 # Conclusion
 
-CRF Model: Effective for sequential prediction but limited by class imbalance and lack of deep contextual understanding.
+-- CRF Model: Effective for sequential prediction but limited by class imbalance and lack of deep contextual understanding.
 
-LSTM/BiLSTM Models: Enhance the ability to capture long-term dependencies and improve recall for rare entities.
+-- LSTM/BiLSTM Models: Enhance the ability to capture long-term dependencies and improve recall for rare entities.
 
-Future Improvements: Fine-tuning models, using transfer learning, and leveraging pre-trained embeddings can significantly improve NER performance.
+-- Future Improvements: Fine-tuning models, using transfer learning, and leveraging pre-trained embeddings can significantly improve NER performance.
