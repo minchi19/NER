@@ -21,7 +21,7 @@ Tag -The tags given to each word based on the IOB tagging system described above
 
 
 # Performance metrics  
-Performance metrics we will use the following metrics to evaluate the models -
+We will use the following metrics to evaluate the models -
 
 Precision
 Recall
